@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 9 - HTML</title>
+    <style>
+        * { margin: 0; 
+            padding: 0; 
+            box-sizing: border-box; 
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #e9ecef;
+            color: #333;
+            line-height: 1.4;
+        }
+
+        /* ---CABEÇALHO --- */
+        header {
+            background-color: #2c7a2c; 
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3.5rem;
+            letter-spacing: 2px; /*distancia entre letras*/
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        header p { font-size: 1.2rem; margin-top: 10px; color: #e8f5e9; }
+
+        /* ---MENU NAVEGAÇÃO --- */
+        nav {
+            background-color: #1a4d1a; 
+            padding: 15px;
+            text-align: center;
+            position: sticky; /* Gruda no topo */
+            top: 0; /* aoparece quando desce */
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+            margin: 0 20px;
+        }
+
+        nav a:hover { color: #81c784; }
+
+        /* ---ARTIGO EM DESTAQUE --- */
+        #inicio{
+            max-width: 1000px;
+            margin: 50px auto;
+            padding: 0px 20px;
+        }
+
+        .card-principal {
+            background-color: white;
+            padding: 30px;
+            margin-top: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            border-left: 10px solid #2c7a2c;
+        }
+
+        .card-principal h2 {
+            font-size: 2.5rem;
+            color: #2c7a2c;
+        }
+
+        .meta { color: #717171; font-size: 1rem; margin-bottom: 20px; display: block; }
+
+        /* ---LISTA De ARTIGOS(la embaixo)--- */
+        #lista-artigos {
+            background-color: #e9ecef;
+            padding: 50px 20px;
+            padding-bottom: 450px; /*espaçamento entre artigo e contatos(aparece so um pouco)*/
+            
+        }
+
+        .container-lista {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .titulo-secao {
+            text-align: center;
+            margin-bottom: 40px;
+            color: #1a4d1a;
+            font-size: 2rem;
+            text-transform: uppercase;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* deixa ele em colunas e pequenos*/
+            gap: 30px; /*espaçamento entre eles*/
+        }
+
+        .artigo-pequeno {
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            transition: transform 0.3s;
+        }
+
+        .artigo-pequeno:hover { transform: translateY(-5px); }
+
+        .artigo-pequeno h3 { color: #333; margin-bottom: 10px; }
+
+        /* ---CONTATO --- */
+        
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+            padding-top: 0;/*pensando exclusivamente no "© 2026 Blog do Zuzzinha" kkkkk pq aparece quandco clica em artigos na nav*/
+        }
+
+        .btn-topo {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 10px 20px;
+            background-color: #2c7a2c;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <header id="topo">
+        <h1>BLOG DO ZUZZINHA</h1>
+        <p>Aprendendo WEB(full-stack), Java e se tornando o melhor da UFRA-CP.</p>
+    </header>
+
+    <nav>
+        <a href="#inicio">Início</a>
+        <a href="#lista-artigos">Artigos</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <section id="inicio">
+        <div class="card-principal">
+            <span style=
+            "background: #2c7a2c; 
+            color: #fff; 
+            padding: 3px 10px; 
+            border-radius: 3px; 
+            font-size: 0.8rem;" >NOVO POST</span> <!-- icone dentro do card-->
+
+            <h2>Minha Trajetória na UFRA</h2>
+            <span class="meta">Postado em 18 Jan 2026 pelo Zuzza</span>
+            
+            <p><strong>Resumo:</strong> Como concilio a minha vida acadêmica, meu estágio do PIBID, meus treinos físicos para o INTER UFRA, sem enlouquecer — e, surpreendentemente, ainda não ter ido parar no CAPS.</p>
+            <br>
+            <p>Estudar computação na Ufra é basicamente aceitar viver em modo multitarefa por 4 anos. Entre trabalhos que surgem “rapidinho”, prazos que vencem ontem, tendo a probabilidade do código poder parar de funcionar, porque simplesmente hoje ele acordou de mau humor, e noites mal dormidas, eu sigo firme acreditando que tudo isso é parte do processo formativo (ou de um experimento social muito bem elaborado).</p>
+            <br>
+            <p>No meio desse caos organizado(ou não), ainda tem o PIBID, onde ensino enquanto aprendo, aprendo enquanto erro e erro enquanto finjo que está tudo sob controle. Além disso, tem os treinos para o INTER UFRA, porque nada melhor do que cansar o corpo quando a mente já está "lélé". O resultado? Uma rotina intensa, levemente insana, sustentada por café, força de vontade e a falsa sensação de que “semana que vem fica mais tranquilo”. Até então, nota 9,9 pro curso -porque não quiseram me dar 0,1 na nap1.</p>
+        </div>
+    </section>
+
+    <section id="lista-artigos">
+        <div class="container-lista">
+            <h2 class="titulo-secao">Outras Publicações</h2>
+            
+            <div class="grid">
+                <article class="artigo-pequeno">
+                    <h3>☕ O poder do Java</h3>
+                    <p>Java não é difícil - ele só exige compromisso emocional.reclama de tudo e faz você escrever dez linhas pra resolver algo simples. Mesmo assim, mas amanhã vai estar usando de novo porque paga bem.</p>
+                </article>
+
+                <article class="artigo-pequeno">
+                    <h3>🏠 Vida de Home Office (ou sobrevivência doméstica)</h3>
+                    <p>Quando o quarto vira escritório, a sala vira sala de aula e a cozinha vira ponto estratégico de café, organização deixa de ser luxo e vira mecanismo de sobrevivência.</p>
+                </article>
+
+                <article class="artigo-pequeno">
+                    <h3>🔍 Perícia vs Dev (ou o dom de desconfiar de tudo)</h3>
+                    <p>Debuggar código é basicamente uma investigação: alguém errou, algo não bate e as evidências estão espalhadas. Nada é inocente até que se prove o contrário — principalmente aquele método que “sempre funcionou”. Pensamento analítico não é diferencial, é ferramenta de sobrevivência.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contato">
+        <p>© 2026 Blog do Zuzzinha</p>
+        <br>
+        <h2>Fale Comigo</h2>
+        <br>
+        <p>📧 ZuzzinhaDaUfra@gmail.com</p>
+        <p>📱 (91) 4002-8922</p>
+        <p>📍 Capitão Poço - PA</p>
+
+        <a href="#topo" class="btn-topo">⬆ Voltar ao Topo</a>
+    </footer>
+
+</body>
+</html>
