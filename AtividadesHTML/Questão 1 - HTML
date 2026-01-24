@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 1 - HTML</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            height: 100vh;
+
+            display: flex;
+            flex-direction: column; 
+            justify-content: center; 
+            align-items: center; 
+            
+            background-color:antiquewhite; 
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center; 
+        }
+
+        .container {
+            max-width: 800px; 
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 70px;
+            color: #333;
+            margin-bottom: 20px; 
+        }
+
+        p {
+            font-size: 35px; 
+            line-height: 1.5; 
+            color: #1d1d1d;
+        }
+
+        
+        .destaque {
+            color: #2c7a2c; 
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+   <div class="container">
+        <h1>KAUÊ ZUZZA MATA SARAIVA</h1>
+        <p>
+            Prazer, sou um aluno da <span class="destaque">Universidade Federal Rural da Amazônia (Ufra)</span>. Tenho 21 anos e já tenho minha própria casa. Gosto muito de programação e pretendo trabalhar em home office com <span class="destaque">Java</span> ou <span class="destaque">Web</span>.
+        </p>
+    </div>
+    
+</body>
+</html>
