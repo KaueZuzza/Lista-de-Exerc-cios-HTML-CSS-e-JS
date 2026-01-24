@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 6 - HTML</title>
+
+    /<style>
+       body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #eef2f7;
+            padding: 50px;
+        }
+
+        h1 {
+            text-align: center;
+            color: black;
+        }
+
+        .table-container {
+            background: white;
+            padding: 25px;
+            width: 100%;
+            max-width: 650px;
+            margin: 20px auto;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 20px;
+        }
+
+        th {
+            background: #d9e4ff;
+            padding: 12px;
+            font-weight: bold;
+            border: 2px solid #9bb4e0;
+        }
+
+        td {
+            padding: 10px;
+            border: 2px solid #c6d4eb;
+        }
+
+        tfoot td {
+            background: #e3ebff;
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>TABELA DE PRODUTOS</h1>
+
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Produto</th>
+                    <th>Quantidade</th>
+                    <th>Valor (R$)</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Caneta</td>
+                    <td>10</td>
+                    <td>1.50</td>
+                </tr>
+                <tr>
+                    <td>Caderno</td>
+                    <td>3</td>
+                    <td>6.00</td>
+                </tr>
+                <tr>
+                    <td>Lápis</td>
+                    <td>5</td>
+                    <td>1.00</td>
+                </tr>
+                <tr>
+                    <td>Borracha</td>
+                    <td>2</td>
+                    <td>0.75</td>
+                </tr>
+                <tr>
+                    <td>Marca-texto</td>
+                    <td>1</td>
+                    <td>4.50</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td>Total</td>
+                    <td></td>
+                    <td>R$ 25.75</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+
+</body>
+</html>
