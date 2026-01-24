@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 3 - HTML</title>
+    <style>
+        body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #4f46e5, #6366f1);
+    color: #fff;
+    margin: 0;
+    padding: 40px 20px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        section {
+            background: rgba(255, 255, 255, 0.12);
+            padding: 20px;
+            border-radius: 15px;
+            margin-bottom: 25px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+            backdrop-filter: blur(5px);
+        }
+
+        section h2 {
+            margin-top: 0;
+            font-size: 1.6rem;
+            letter-spacing: 1px;
+        }
+
+        ol, ul {
+            margin-top: 10px;
+            padding-left: 25px;
+            font-size: 1.2rem;
+        }
+
+        li {
+            margin: 6px 0;
+        }
+
+        ol {
+            list-style-type: decimal;
+        }
+
+        ul {
+            list-style-type: square;
+        }
+
+        li ul {
+            margin-top: 5px;
+            list-style-type: circle;
+        }
+    
+    </style>
+</head>
+<body>
+
+    <h1>Tipos de Listas</h1>
+
+    <section>
+        <h2>ESTUDAR PROGRAMAÇÃO</h2>
+        <ol>
+            <li>Ter um PC</li>
+            <li>Ter uma internet boa</li>
+            <li>Estudar lógica de programação</li>
+            <li>Saber qual área você quer seguir</li>
+            <li>Se aprofundar no assunto</li>
+        </ol>
+    </section>
+
+    <section>
+        <h2>TECNOLOGIA WEB</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Java</li>
+            <li>Banco de Dados</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Misturando</h2>
+        <ol>
+            <li>Ter uma Empresa
+                <ul>
+                    <li>Ter um terreno</li>
+                    <li>Ter dinheiro</li>
+                    <li>Ser boa</li>
+                </ul>
+            </li>
+
+            <li>Ser Rico
+                <ul>
+                    <li>Trabalhar muito</li>
+                    <li>Economizar bastante</li>
+                    <li>Investir na bolsa de valores</li>
+                </ul>
+            </li>
+        </ol>
+    </section>
+
+</body>
+</html>
