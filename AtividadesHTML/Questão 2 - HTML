@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 2 - HTML</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        body{
+            background-color: darkcyan;
+            width: 100vw;
+            height: 100vh;
+            position: fixed;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        section{
+            background-color: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+            backdrop-filter: blur(5px);
+        }
+        h1{
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+        p{
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <section>
+    <h1>TIPOS DE TEXTOS:</h1>
+    <p>NEGRITO:  <strong>Eu</strong></p>
+    <p>ITALICO:  <em>Sou</em></p>
+    <p>SUBLINHADO:  <u>Um</u></p>
+    <p>MARCADO:  <mark>Humano</mark></p>
+    <p>PEQUENO:  <small>Lindo!</small></p>
+</section>
+</body>
+</html>
