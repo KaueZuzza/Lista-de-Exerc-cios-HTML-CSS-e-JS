@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 4 - HTML</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f2f4f8;
+            margin: 0;
+            padding: 40px;
+            color: #333;
+        }
+
+        h1 {
+            text-align: center;
+            color: #1d3c78;
+            margin-bottom: 40px;
+            font-size: 32px;
+        }
+
+        .card {
+            background: #ffffff;
+            padding: 25px;
+            margin: 20px auto;
+            width: 80%;
+            max-width: 750px;
+            border-radius: 14px;
+            box-shadow: 0px 4px 12px rgba(0,0,0,0.12);
+        }
+
+        h2 {
+            margin-top: 0;
+            color: #1d3c78;
+        }
+
+        a {
+            display: inline-block;
+            font-size: 18px;
+            color: #1558d6;
+            text-decoration: none;
+            padding: 8px 12px;
+            border-radius: 6px;
+            background: #e7eefc;
+            font-weight: 600;
+            transition: 0.2s;
+        }
+
+        a:hover {
+            background: #d4e1ff;
+            transform: scale(1.02);
+        }
+
+        #secao-info {
+            background: #e8edf5;
+            border-left: 6px solid #1d3c78;
+            padding: 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>EXEMPLOS DE LINKS</h1>
+
+    <div class="card">
+        <h2>1. Link para o Google</h2>
+        <a href="https://www.google.com" target="_blank">Abrir Google</a>
+    </div>
+
+    <div class="card">
+        <h2>2. Link para outro arquivo (Arquivo local)</h2>
+        <a href="/Arquivos/kauê Zuzza Mata Saraiva - Relatório PIBID Outubro.pdf" target="_blank">
+            Informações para Arquivo interno
+        </a>
+    </div>
+
+    <div class="card">
+        <h2>3. Link âncora para uma seção da página</h2>
+        <a href="#secao-info">Ir para a seção de informações</a>
+    </div>
+
+    <p style="margin-top: 500px;"></p>
+
+    <div id="secao-info" class="card">
+        <h3>Seção de Informações</h3>
+        <p>Você chegou na seção âncora!</p>
+    </div>
+
+    <div class="card">
+        <h2>4. Link para e-mail</h2>
+        <a href="mailto:zuzzinhaMelhorDeTodos@gmail.com">Enviar e-mail</a>
+    </div>
+
+</body>
+</html>
