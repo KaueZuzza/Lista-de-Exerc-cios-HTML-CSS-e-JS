@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 10 - HTML</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+
+            display: grid;
+            grid-template-areas: 
+                "header header"
+                "nav nav"
+                "content sidebar"
+                "footer footer";
+            grid-template-columns: 3fr 1fr;
+
+            max-width: 1200px;
+            margin: 0 auto;
+            min-height: 100vh;
+            background-color: #fff;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+
+        /* --- Header --- */
+        header {
+            grid-area: header;
+            background-color: #003366;
+            color: white;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            border-bottom: 4px solid #cc0000;
+        }
+
+        header h1 {
+            font-size: 2rem;
+        }
+
+        /* --- Navegação --- */
+        nav {
+            grid-area: nav;
+            background-color: #333;
+            padding: 10px 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            display: inline-block;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #cc0000;
+            border-radius: 4px;
+        }
+
+        /* --- Conteúdo --- */
+        section {
+            grid-area: content;
+            padding: 20px;
+        }
+
+        article {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            transition: transform 0.2s;
+        }
+
+        article:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        article h2 {
+            color: #003366;
+            margin-bottom: 10px;
+        }
+
+        /* --- Artigo Destaque --- */
+        .article-destaque {
+            position: relative;
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            background-color: #eef3f8;
+            border: 2px solid #003366;
+        }
+        .badge-novo {
+        position: absolute;
+        top: 15px;
+        left: 15px;
+
+        background-color: #106a00;
+        color: white;
+        padding: 6px 12px;
+        font-size: 0.8rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        border-radius: 4px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+        }
+
+        .article-destaque img {
+            width: 45%;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+
+        .article-destaque .texto {
+            width: 55%;
+        }
+
+        .article-destaque h2 {
+            font-size: 1.8rem;
+        }
+
+        /* --- Sidebar --- */
+        aside {
+            grid-area: sidebar;
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-left: 1px solid #eee;
+        }
+
+        aside h3 {
+            border-bottom: 2px solid #cc0000;
+            padding-bottom: 10px;
+            margin-bottom: 15px;
+        }
+
+        /* --- Footer --- */
+        footer {
+            grid-area: footer;
+            background-color: #222;
+            color: #aaa;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <img src="/Arquivos/ChatGPT Image 20 de jan. de 2026, 12_01_33.png" 
+             alt="Logotipo" 
+             width="100" 
+             style="background:white; padding:5px; border-radius:50%;">
+        <h1>Portal de Notícias do Zuzza</h1>
+    </header>
+
+    <nav>
+        <a href="#">Início</a>
+        <a href="#">Brasil</a>
+        <a href="#">Tecnologia</a>
+        <a href="#">Esportes</a>
+    </nav>
+
+    <section>
+
+        <!-- ARTIGO DESTAQUE -->
+        <article class="article-destaque">
+            <span class="badge-novo">NOVO POST</span>
+
+            <img src="/Arquivos/WhatsApp Image 2026-01-20 at 14.23.59.jpeg" alt="Notícia em destaque, apenas ilustrativo, sem violência">
+
+            <div class="texto">
+                <h2>🔥 Notícia em Destaque: Mulher coloca namorado na guilhotina, por não fazer o almoço e não lavar a louça.</h2>
+                <p>
+                    Segundo apuração da redação do ENEM, o episódio teria ocorrido após o não cumprimento de tarefas básicas, como preparar o almoço, lavar a louça e arrumar a casa. Fontes próximas (grupo do zap), afirmam que o diálogo foi tentado, mas a frase “já vou” teria precipitado a decisão. O caso segue sendo tratado como consequência doméstica previsível.
+                </p>
+                <p>
+                    O acusado alegou que “ia fazer depois” e que “piscou e já estava sujo dnv”, mas a Justiça Doméstica foi clara: quem não faz o almoço, sente o peso da guilhotina.
+                </p>
+            </div>
+        </article>
+
+        <!-- ARTIGOS NORMAIS -->
+        <article>
+            <h2>Cárcere privado aumentados para homens</h2>
+            <p>Segundo a investigação, o homem teria sido mantido em cárcere privado após falar “vou sair com os muleques”. O local contava com casa suja e tarefas domésticas pendentes.</p>
+        </article>
+
+        <article>
+            <h2>Professor e sequestrado por nao dar 0,5 para universitario</h2>
+            <p>O caso ocorreu no mesmo dia da entrega da prova, e ainda estao procurando o mesmo.</p>
+        </article>
+
+        <article>
+            <h2>Zuzza se torna o melhor aluno de Computacao que a UFRA ja teve(afirma o mesmo).</h2>
+            <p>apos tirar 3,5 na prova do Prof. Jose, considerado a prova mais dificl da UFRA-CP.Porem, novas investigacoes estao sendo feitas para afirmar 100%. </p>
+        </article>
+
+    </section>
+
+    <aside>
+        <h3>Mais Lidas</h3>
+        <p>• Como se muito bom em Programacao</p>
+        <p>• Desenvolvimento WEB e bom pra saude mental?</p>
+
+        <hr style="margin: 15px 0; border: 0; border-top: 1px solid #ccc;">
+
+        <h3>Publicidade</h3>
+        <div style="background:#ddd; height:150px; display:flex; align-items:center; justify-content:center;">
+            Anúncio
+        </div>
+    </aside>
+
+    <footer>
+        <p>© 2025 Portal de Notícias do Zuzza</p>
+    </footer>
+
+</body>
+</html>
