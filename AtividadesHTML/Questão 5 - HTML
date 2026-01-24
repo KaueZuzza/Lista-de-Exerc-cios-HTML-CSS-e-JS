@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Questão 5 - HTML</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    padding: 20px;
+    margin: 0;
+    }
+
+        h1 {
+            text-align: center;
+            color: #000000;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #000000;
+            margin-top: 30px;
+        }
+
+        img {
+            display: block;
+            margin: 10px 0 20px;
+            border-radius: 8px;
+        }
+
+        figure {
+            margin: 20px 0;
+            text-align:left;
+        }
+
+        figcaption {
+            font-size: 20px;
+            color: #000000;
+            margin-top: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Imagens</h1>
+
+    <h2>1. Imagem com atributo ALT</h2>
+    <img src="/Arquivos/Brasão_ufra PNG.png" width="300px" alt="Brasao da Ufra">
+
+    <h2>2. Imagem com largura de 300px</h2>
+    <img src="/Arquivos/2.png" width="300px" alt="Imagem com 300px">
+
+    <h2>3. Imagem dentro de um link</h2>
+    <a href="https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png">
+        <img src="/Arquivos/C_Logo.png" alt="Clique para ir ao Google" width="200">
+    </a>
+
+    <h2>4. Legenda usando figure e figcaption</h2>
+    <figure>
+        <img src="/Arquivos/css logo.png" width="300" alt="Imagem com legenda">
+        <figcaption>Logo do CSS5</figcaption>
+    </figure>
+
+</body>
+</html>
