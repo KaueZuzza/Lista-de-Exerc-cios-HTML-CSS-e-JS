@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Questão 8 - HTML</title>
+    <style>
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #e1e1e1; 
+            color: #333; 
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        
+        .curriculo-container {
+            max-width: 800px;
+            margin: 0 auto; 
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1); 
+        }
+
+        
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            border-bottom: 2px solid #f0f0f0;
+            padding-bottom: 20px;
+        }
+
+        header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%; 
+            object-fit: cover; 
+            border: 4px solid #2c7a2c; 
+            margin-top: 15px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #1a1a1a;
+            margin-bottom: 5px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        
+        section {
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            font-size: 1.4rem;
+            color: #2c7a2c; 
+            border-left: 5px solid #2c7a2c; 
+            padding-left: 10px;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+        }
+
+        p, li {
+            font-size: 1rem;
+            margin-bottom: 8px;
+        }
+
+        ul {
+            list-style-position: inside; 
+            padding-left: 10px;
+        }
+
+        
+        .destaque {
+            color: #2c7a2c;
+            font-weight: bold;
+        }
+
+        
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            font-size: 0.9rem;
+            color: #777;
+            border-top: 1px solid #eee;
+            padding-top: 20px;
+        }
+
+        
+    </style>
+</head>
+<body>
+
+    <div class="curriculo-container">
+        <header>
+            <h1>Kauê Zuzza Mata Saraiva</h1>
+            <img src="/Arquivos/WhatsApp Image 2026-01-19 at 16.25.37.jpeg" alt="Foto do Zuzza">
+        </header>
+
+        <section>
+            <h2>Resumo Profissional</h2>
+            <p>Acadêmico de Licenciatura em Computação na <span class="destaque">UFRA</span> e graduado em Investigação Forense na <span class="destaque">ESTÁCIO</span>. Com perfil analítico e foco em desenvolvimento de software, busco oportunidades como desenvolvedor júnior com ênfase em tecnologias <span class="destaque">Java</span> e desenvolvimento <span class="destaque">Web</span>.</p>
+        </section>
+
+        <section>
+            <h2>Formação Acadêmica</h2>
+            <ul>
+                <li><strong>Licenciatura em Computação</strong> – Universidade Federal Rural da Amazônia (UFRA) <br> <small>Em andamento</small></li>
+                <li><strong>Investigação Forense e Perícia Criminal</strong> –  Estácio <br> <small>Concluído</small></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Habilidades & Interesses</h2>
+            <ul>
+                <li>Linguagens: C, C++, Java, HTML5, CSS3, JavaScript e Python.</li>
+                <li>Interesse em: Desenvolvimento Web, Home Office, Perícia Digital, Back-end em Java.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Experiência</h2>
+            <ul>
+                <li><strong>Projetos Acadêmicos:</strong> Desenvolvimento de páginas web responsivas e lógica de programação em HTML, CSS e JS.</li>
+                <li><strong>FormaTec:</strong> Projeto em andamento para o TCC, sendo aplicativo e web, softwere dinâmico e prático, e web bem intuitívo e acessível. </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Contatos</h2>
+            <p><strong>Email:</strong> ZuzzinhaDaUfra@gmail.com</p>
+            <p><strong>Telefone:</strong> (91) 4002-8922</p>
+            <p><strong>Localização:</strong> Capitão-Poço - PA</p>
+        </section>
+
+        <footer>
+            <p>© 2026 – Kauê Zuzza Mata Saraiva</p>
+        </footer>
+    </div>
+
+</body>
+</html>
