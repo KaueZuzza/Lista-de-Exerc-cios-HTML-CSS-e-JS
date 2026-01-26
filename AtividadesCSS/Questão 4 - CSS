@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 4 - CSS</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box; 
+        }
+
+        body{
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(134, 226, 229);
+        }
+
+        .card{
+            background-color: white;
+            padding: 40px; /*era pra ser 20px, mas ficou feio e tive que aumentar*/
+            border-radius: 25px;
+            line-height: 1.8;
+            box-shadow: 0 7px 3px rgba(0, 0, 0, 0.50);
+            }
+        li{
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <section class="card">
+        <h2>Como se tornar o melhor da Ufra-CP</h2>
+        <p>
+            <ul>
+                <li>ser melhor que eu</li>
+                <li>mais bonito que eu</li>
+                <li>saber programar melhor que eu</li>
+            </ul>
+        </p>
+    </section>
+</body>
+</html>
