@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 10 - CSS</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        body{
+            height: 98vh;
+            width: 98vw;
+            background-color: darkolivegreen;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container{
+            background-color: white;
+            width: 650px;
+            height: 200px;
+            padding: 30px;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            line-height: 5;
+            box-shadow: 0 12px 24px rgba(0,0,0,0.35);
+
+        }
+        .btn{
+            width: 200px;
+            height: 50px;
+            background-color: cadetblue;
+            color: white;
+            font-size: 20px;
+            border-radius: 15px;
+            padding: 10px;
+        }
+        .btn:hover{
+            background-color: #2e7d32;
+            transform: scale(1.2);
+            cursor: pointer;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Você acha que o Zuzza é o melhor da turma 23 de LC?</h2>
+        <button class="btn">SIM!</button>
+    </div>
+    
+</body>
+</html>
