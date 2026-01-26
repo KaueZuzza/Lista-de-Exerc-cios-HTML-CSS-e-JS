@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Questão 7 - CSS</title>
+
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        body{
+            width: 98vw;
+            height: 98vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            
+        }
+        #tabela-dados {
+            height: 200px;
+            width: 500px;
+        }
+
+        /* bordas externas e internas como foi pedido*/
+        #tabela-dados,
+        #tabela-dados th,
+        #tabela-dados td {
+            border: 1px solid black; 
+        }
+
+        /* cabecalho com cor destaque */
+        #tabela-dados thead {
+            background-color: #003366;
+            color: white;
+        }
+
+        /* espacamento das celulas e texto no centro*/
+        #tabela-dados th,
+        #tabela-dados td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        /* linhas alternadas */
+        #tabela-dados tbody tr:nth-child(even) {
+            background-color: #daa0a0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Dados dos Alunos da UFRA</h2>
+
+    <table id="tabela-dados">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Curso</th>
+                <th>Matrícula</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Zuzza</td>
+                <td>Licenciatura em Computação</td>
+                <td>40028922</td>
+            </tr>
+            <tr>
+                <td>Luis</td>
+                <td>Designer Artistico</td>
+                <td>12548755</td>
+            </tr>
+            <tr>
+                <td>Mayra</td>
+                <td>Artes</td>
+                <td>13319487</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
