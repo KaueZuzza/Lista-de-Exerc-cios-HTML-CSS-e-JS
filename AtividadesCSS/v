@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 5 - CSS</title>
+    <style>
+        
+        body{
+            height: 90vh;
+            background-color: rgb(203, 194, 183);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #menu {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        #menu li {
+            font-size: 25px;
+            display: inline-block;
+            margin-right: 15px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <ul id="menu">
+        <li><a href="#">Início</a></li>
+        <li><a href="#">Artigos</a></li>
+        <li><a href="#">Ufra</a></li>
+        <li><a href="#">Sobre</a></li>
+    </ul>
+
+</body>
+</html>
