@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 3 - CSS</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box; 
+        }
+
+        body{
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        p{
+            width: 400px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: justify;
+            line-height: 1.5;
+            font-size: 16px;
+        }
+
+    </style>
+</head>
+<body>
+    <p>
+        O Zuzza é o melhor da UFRA inteira (segundo ele mesmo), embora existam alguns relatos de uma figura misteriosa supostamente melhor do que ele — hipótese considerada altamente improvável.
+    </p>
+</body>
+</html>
