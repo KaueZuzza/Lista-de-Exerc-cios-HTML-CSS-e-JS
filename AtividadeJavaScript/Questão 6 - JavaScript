@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 6 - JavaScript</title>
+</head>
+<body>
+    <script>
+        var num = prompt("Digite um número:");
+
+        if (num <= 1) {
+        alert("Não é primo");
+        } else {
+        let primo = true;
+
+        for (let i = 2; i < num; i++) {
+            if (num % i == 0) {
+            primo = false;
+            }
+        }
+
+        if (primo) {
+            alert("É primo");
+        } else {
+            alert("Não é primo");
+        }
+        }
+
+
+    </script>
+</body>
+</html>
