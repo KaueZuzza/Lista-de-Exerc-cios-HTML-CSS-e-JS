@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 10 - JavaScript</title>
+</head>
+<body>
+    <script>
+        var maiores = 0;
+        var menores = 0;
+
+        var dadosMaiores = "";//só pra dar um espaço
+        var dadosMenores = "";
+
+        while (true) {
+        var nome = prompt("Digite o nome da pessoa (ou digite 'sair' para encerrar):");
+
+        if (nome === "sair") {
+            break; // se digitar, aqui já acaba
+        }
+
+        var idade = prompt("Digite a idade de " + nome + ":");
+
+        if (idade >= 18) {
+            maiores++;
+            dadosMaiores += nome + " - " + idade + " anos\n"; //deixei pra ficar armazenado
+        } else {
+            menores++;
+            dadosMenores += nome + " - " + idade + " anos\n";
+        }
+        }
+
+        
+        alert(
+        "Maiores de idade: " + maiores + "\n" +
+        dadosMaiores + "\n" +
+        "Menores de idade: " + menores + "\n" +
+        dadosMenores
+        );
+
+        
+        console.log("Maiores de idade (" + maiores + "):");
+        console.log(dadosMaiores);
+
+        console.log("Menores de idade (" + menores + "):");
+        console.log(dadosMenores);
+
+
+
+    </script>
+</body>
+</html>
