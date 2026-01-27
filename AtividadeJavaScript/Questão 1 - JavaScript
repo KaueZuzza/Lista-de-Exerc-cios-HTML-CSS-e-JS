@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 1 - JavaScript</title>
+</head>
+<body>
+    
+    <script>
+        var area;
+        
+        var base = prompt("Digite a base do triângulo: ");
+        var altura = prompt("Digite a altura do triângulo: ");
+
+        area = (base*altura)/2;
+
+        alert("- O resultado da area do triangulo foi: "+area);
+
+        console.log("- O valor digitado da base foi: "+base);
+        console.log("- O valor digitado da altura foi: "+altura);
+        console.log("- O resultado da area do triangulo foi: "+area);
+
+    </script>
+
+</body>
+</html>
