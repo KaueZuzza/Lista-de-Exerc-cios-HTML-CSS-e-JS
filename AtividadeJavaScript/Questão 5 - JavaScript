@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 5 - JavaScript</title>
+</head>
+<body>
+    <script>
+        let temp = prompt("- Digite a temperatura: ");
+        let tipo = prompt("- Digite 'c' para Celsius ou 'f' para Fahrenheit: ");
+
+        if (tipo == "c") {
+            alert("Resultado: " + ((temp - 32) * 5 / 9));
+            console.log("Resultado em Celsius:", (temp - 32) * 5 / 9);
+        }
+
+        if (tipo == "f") {
+            alert("Resultado: " + ((temp * 9 / 5) + 32));
+            console.log("Resultado em Fahrenheit:", (temp * 9 / 5) + 32);
+        }
+        
+    </script>
+</body>
+</html>
