@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 3 - JavaScript</title>
+</head>
+<body>
+    <script>
+        var celsius = prompt("- Digite a temperatura em celsius: ");
+        var fahrenheit = (celsius * 9/5) + 32;
+
+        alert("- O resultado da conversao de C para F foi: "+fahrenheit);
+
+        console.log("- O valor em Celsius foi: "+celsius);
+        console.log("- O valor em Fahrenheit foi: "+fahrenheit);
+    </script>
+</body>
+</html>
