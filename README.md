@@ -48,14 +48,12 @@ Cada atividade está organizada em uma pasta separada, facilitando a navegação
 
 ```
 
-## 📊 Linguagens utilizadas
+## Linguagens utilizadas
 ![HTML](https://img.shields.io/badge/HTML-✔️-orange)
 ![CSS](https://img.shields.io/badge/CSS-✔️-blue)
 ![JavaScript](https://img.shields.io/badge/JavaScript-✔️-yellow)
 
-
-
-
+---
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=KaueZuzza&layout=compact)
 
