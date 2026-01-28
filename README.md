@@ -57,15 +57,5 @@ Cada atividade está organizada em uma pasta separada, facilitando a navegação
 
 
 
-## 📊 Linguagens utilizadas
-
-HTML  
-<progress value="70" max="100"></progress> 70%
-
-CSS  
-<progress value="50" max="100"></progress> 50%
-
-JavaScript  
-<progress value="35" max="100"></progress> 35%
-
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SEU-USUARIO&layout=compact)
 
