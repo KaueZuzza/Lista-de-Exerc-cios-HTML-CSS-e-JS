@@ -45,3 +45,11 @@ Cada atividade está organizada em uma pasta separada, facilitando a navegação
 │
 ├── 📁 atividade-04
 │   ├── Q4_(NomeDoProjeto).html
+
+```
+
+## 📊 Linguagens utilizadas
+![HTML](https://img.shields.io/badge/HTML-✔️-orange)
+![CSS](https://img.shields.io/badge/CSS-✔️-blue)
+![JavaScript](https://img.shields.io/badge/JavaScript-✔️-yellow)
+
