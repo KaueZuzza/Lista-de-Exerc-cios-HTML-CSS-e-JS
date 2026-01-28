@@ -57,5 +57,5 @@ Cada atividade está organizada em uma pasta separada, facilitando a navegação
 
 
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SEU-USUARIO&layout=compact)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=KaueZuzza&layout=compact)
 
