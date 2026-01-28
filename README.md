@@ -34,12 +34,13 @@ Cada atividade está organizada em uma pasta separada, facilitando a navegação
 📁 atividades-html
 │
 ├── 📁 atividade-01
-│   ├── index.html
+│   ├── Q1_(NomeDoProjeto).html
 │
 ├── 📁 atividade-02
-│   ├── index.html
+│   ├── Q2_(NomeDoProjeto).html
 │
 ├── 📁 atividade-03
-│   ├── index.html
+│   ├── Q3_(NomeDoProjeto).html
 │
-└── 📁 atividade-04
+├── 📁 atividade-04
+│   ├── Q4_(NomeDoProjeto).html
