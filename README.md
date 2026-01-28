@@ -1,5 +1,6 @@
 # 📘Lista de Exercícios Web – HTML, CSS e JavaScript
 Lista de exercício do prof. José sobre desenvolvimento web
+
 Este repositório reúne **diversas atividades práticas** desenvolvidas com **HTML, CSS e JavaScript**, com foco no aprendizado dos fundamentos do desenvolvimento web front-end.
 
 
