@@ -53,25 +53,3 @@ Cada atividade está organizada em uma pasta separada, facilitando a navegação
 ![CSS](https://img.shields.io/badge/CSS-✔️-blue)
 ![JavaScript](https://img.shields.io/badge/JavaScript-✔️-yellow)
 
-
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SEU-USUARIO&layout=compact)
-
-
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SEU-USUARIO&repo=NOME-DO-REPOSITORIO)
-
-
-
-
-
-## 📊 Estatísticas do repositório
-
-![Linguagens](https://img.shields.io/github/languages/top/SEU-USUARIO/NOME-DO-REPOSITORIO)
-![Contagem](https://img.shields.io/github/languages/count/SEU-USUARIO/NOME-DO-REPOSITORIO)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SEU-USUARIO&layout=compact)
-
-
-
-
