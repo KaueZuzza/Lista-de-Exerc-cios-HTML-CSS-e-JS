@@ -1,0 +1,101 @@
+/* Variáveis de Cor */
+:root {
+    --bg-color: #0f172a;
+    --card-bg: #1e293b;
+    --primary: #38bdf8;
+    --text-main: #f8fafc;
+    --text-dim: #94a3b8;
+}/* Isso serbe para nao ficar cores diferentes, ou qualquer outra maneira ele fica 'armazenada' */
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-main);
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+}
+
+/*Header*/
+#main-header {
+    padding: 3rem 1rem;
+    border-bottom: 1px solid #334155;
+    text-align: center;
+}
+
+.logo {
+    width: 120px;
+    filter: drop-shadow(0 0 10px var(--primary));
+    margin-bottom: 1rem;
+}
+
+/* 2. SELETOR DE FILHO - Menu Horizontal */
+nav ul > li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav {
+    background: #1e293b;
+    padding: 1rem;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+/* 3. SELETOR DE CLASSE - Grid de Artigos */
+.container {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.articles-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.card {
+    background: var(--card-bg);
+    padding: 2rem;
+    border-radius: 12px;
+    border: 1px solid #334155;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    border-color: var(--primary);
+}
+
+.section-title {
+    border-left: 4px solid var(--primary);
+    padding-left: 15px;
+    margin-top: 50px;
+}
+
+/* 4. SELETOR DE ATRIBUTO - Links do Menu */
+a[href] {
+    color: var(--text-dim);
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+a[href]:hover {
+    color: var(--primary);
+}
+
+.main-footer {
+    text-align: center;
+    padding: 40px;
+    margin-top: 60px;
+    border-top: 1px solid #334155;
+    color: var(--text-dim);
+    font-size: 0.9rem;
+}
+
+p { color: var(--text-dim); }
+h3 { color: var(--primary); margin-top: 0; }
